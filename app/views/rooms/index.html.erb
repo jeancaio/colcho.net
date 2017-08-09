@@ -1,0 +1,12 @@
+<%= render 'search' %>
+
+<h1>
+  <% if @sear.present? %>
+    <% t '.search_results' %>
+  <% else %>
+    <%= t ('.title') %> </h1>
+  <% end %>
+
+  <%= render @rooms %>
+
+  <%= paginate @rooms %>
