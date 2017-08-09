@@ -90,7 +90,7 @@ Rails.application.configure do
 
   config.active_record.dump_schema_after_migration = false
   config.action_mailer.default_url_options = {
-    host: "fierce-everglades-2744.herokuapp.com"
+    host: "vast-coast-45482.herokuapp.com"
   }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
@@ -98,7 +98,7 @@ Rails.application.configure do
     address:         ENV['MAILGUN_SMTP_SERVER'],
     user_name:       ENV['MAILGUN_SMTP_LOGIN'],
     password:        ENV['MAILGUN_SMTP_PASSWORD'],
-    domain:          'fierce-everglades-2744.herokuapp.com',
+    domain:          'sandbox0cc43e76fe72492bae033ae9012d5fc5.mailgun.org',
     authentication:  :plain,
   }
 
